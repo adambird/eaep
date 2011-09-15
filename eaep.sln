@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eaep.core", "eaep.core\eaep.core.csproj", "{91C99E42-A3D5-4355-828E-074A4A19572B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eaep.core.test", "eaep.core.test\eaep.core.test.csproj", "{C5776744-EA0F-4040-9C0D-FB9D1DD5E85D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eaep.generator", "eaep.generator\eaep.generator.csproj", "{7B1A012F-0C59-469D-A578-872487CF546E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{FC132C13-9623-482D-B42B-CFCA2FCE104B}"
+	ProjectSection(SolutionItems) = preProject
+		lib\log4net.dll = lib\log4net.dll
+		lib\Moq.dll = lib\Moq.dll
+		lib\Newtonsoft.Json.dll = lib\Newtonsoft.Json.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eaep.servicehost", "eaep.servicehost\eaep.servicehost.csproj", "{791E9420-C293-4079-B2A6-3568B5E991A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eaep.host", "eaep.host\eaep.host.csproj", "{1D4DB553-CD91-4CE3-9D8E-2FB76B0414A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eaep.servicehost.test", "eaep.servicehost.test\eaep.servicehost.test.csproj", "{9B26588B-70CA-4E33-8FB3-6D85ABA567DD}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs07.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = eaep.core.test\\eaep.core.test.csproj
+		SccProjectName1 = eaep.core.test
+		SccLocalPath1 = eaep.core.test
+		SccProjectUniqueName2 = eaep.core\\eaep.core.csproj
+		SccProjectName2 = eaep.core
+		SccLocalPath2 = eaep.core
+		SccProjectUniqueName3 = eaep.generator\\eaep.generator.csproj
+		SccProjectName3 = eaep.generator
+		SccLocalPath3 = eaep.generator
+		SccProjectUniqueName4 = samples\\echomonitor\\echomonitor.csproj
+		SccProjectTopLevelParentUniqueName4 = eaep.sln
+		SccProjectName4 = samples/echomonitor
+		SccLocalPath4 = samples\\echomonitor
+		SccProjectUniqueName5 = samples\\echomonitor.Tests\\echomonitor.Tests.csproj
+		SccProjectTopLevelParentUniqueName5 = eaep.sln
+		SccProjectName5 = samples/echomonitor.Tests
+		SccLocalPath5 = samples\\echomonitor.Tests
+		SccProjectUniqueName6 = eaep.servicehost\\eaep.servicehost.csproj
+		SccProjectName6 = eaep.servicehost
+		SccLocalPath6 = eaep.servicehost
+		SccProjectUniqueName7 = samples\\eaepwiredwebapp\\eaepwiredwebapp.csproj
+		SccProjectTopLevelParentUniqueName7 = eaep.sln
+		SccProjectName7 = samples/eaepwiredwebapp
+		SccLocalPath7 = samples\\eaepwiredwebapp
+		SccProjectUniqueName8 = eaep.host\\eaep.host.csproj
+		SccProjectName8 = eaep.host
+		SccLocalPath8 = eaep.host
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91C99E42-A3D5-4355-828E-074A4A19572B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C99E42-A3D5-4355-828E-074A4A19572B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C99E42-A3D5-4355-828E-074A4A19572B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C99E42-A3D5-4355-828E-074A4A19572B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5776744-EA0F-4040-9C0D-FB9D1DD5E85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5776744-EA0F-4040-9C0D-FB9D1DD5E85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5776744-EA0F-4040-9C0D-FB9D1DD5E85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5776744-EA0F-4040-9C0D-FB9D1DD5E85D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1A012F-0C59-469D-A578-872487CF546E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1A012F-0C59-469D-A578-872487CF546E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1A012F-0C59-469D-A578-872487CF546E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1A012F-0C59-469D-A578-872487CF546E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791E9420-C293-4079-B2A6-3568B5E991A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791E9420-C293-4079-B2A6-3568B5E991A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791E9420-C293-4079-B2A6-3568B5E991A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791E9420-C293-4079-B2A6-3568B5E991A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4DB553-CD91-4CE3-9D8E-2FB76B0414A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4DB553-CD91-4CE3-9D8E-2FB76B0414A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4DB553-CD91-4CE3-9D8E-2FB76B0414A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4DB553-CD91-4CE3-9D8E-2FB76B0414A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B26588B-70CA-4E33-8FB3-6D85ABA567DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B26588B-70CA-4E33-8FB3-6D85ABA567DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B26588B-70CA-4E33-8FB3-6D85ABA567DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B26588B-70CA-4E33-8FB3-6D85ABA567DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
